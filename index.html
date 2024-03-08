@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=35 .0">
     <title>TEA HOUSE </title>
+    <!-- ===============css style =========== -->
+    <link rel="stylesheet" href="style.css">
     <!-- it's a tag for using tailwoind css -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font awsome for icon create -->
@@ -38,7 +40,7 @@
         </div>
          <div class=" md:flex gap-4 justify-between">
             <div class="flex flex-col bg-gradient-to-b from-slate-200 text-center	m-5 p-5 rounded-2xl gap-3 items-center">
-                <img src="images/tea-35 .png" alt="" srcset="">
+                <img src="./images/tea-1.png" alt="" srcset="">
                 <h1 class="text-3xl font-semibold	">Milk Tea</h1>
                 <p>Creamer could be replaced <br>by fresh milk</p>
             </div>
@@ -95,28 +97,160 @@
 
              </div>
        </section>
+       <!-- =================here the client section design  start ======================= -->
 
-       <section class="">
-        <div class="bg-gradient-to-r md:flex justify-between from-orange-500 to-red-500 rounded-2xl p-5">
-            <div class="space-y-3 w-6/12">
-                <h2 class="text-3xl font-semibold">Meet Our Super <br>Clients</h2>
-                <p class="text-justify ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-                <button class="bg-white p-3 rounded-2xl text-red-500" >Show All</button>
+       <section id="client" class="client">
+        <div class="bg-gradient-to-r items-center md:flex justify-between from-orange-500 to-red-500 rounded-2xl p-5">
+            <div class="space-y-3 ml-12 w-6/12">
+                <h2 class="text-3xl client_heading font-semibold">Meet Our Super Clients</h2>
+                <p class="text-justify clinet_info">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <button class="bg-white client_btn rounded-2xl text-red-500" >Show All</button>
             </div>
             <div class="w-6/12 p-5">
-                
-                <div class=" w-96 p-10 rounded-2xl sticky	  bg-white">
-                   <div class=" absolute bottom-35  left-0 ">
-                    <img src="images/client.png"  class=" 	" alt="">
-                   </div>
-                    <p class=" text-justify">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-                </div>
+                <img src="./images/Group 1000000906.png" alt="Group">             
             </div>
-
         </div>
-
        </section>
+       <!-- =====================here clinet section design end ============== -->
+       <!-- =====================here news  section design start ============== -->
+       <div id="news" class="news">
+         <div class="container">
+            <div class="card-title mb-5 text-center px-10 ">
+                <h2 class="text-5xl font-blod">News & Events</h2>
+                <p class=" text-center info">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+            <div class="grid-cols-1 sm:grid md:grid-cols-3 ">
+                <div
+                  class="mx-3 mt-6 flex news_card flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+                  <a href="#!">
+                    <img
+                      class="rounded-t-lg news_cardimg"
+                      src="./images/news-1.png"
+                      alt="Skyscrapers" />
+                  </a>
+                  <div class="p-6 news_Textbox">
+                    <span class="news_cardspan">Feb 05, 2027</span>
+                    <h5 class="mb-2 news_headdding text-xl font-medium leading-tight"> Collecting 8 points for discount</h5>
+                    <p class="mb-4 news_info text-base">
+                      There are many variations of passages of Lorem Ipsum available.
+                    </p>
+                    <a href="#" class="news_link">Learn More</a>
+                  </div>
+                </div>
+                <div
+                  class="mx-3 mt-6 flex news_card flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+                  <a href="#!">
+                    <img
+                      class="rounded-t-lg news_cardimg"
+                      src="./images/news-2.png"
+                      alt="Skyscrapers" />
+                  </a>
+                  <div class="p-6 news_Textbox">
+                    <span class="news_cardspan">Feb 05, 2027</span>
+                    <h5 class="mb-2 news_headdding text-xl font-medium leading-tight"> Collecting 8 points for discount</h5>
+                    <p class="mb-4 news_info text-base">
+                      There are many variations of passages of Lorem Ipsum available.
+                    </p>
+                    <a href="#" class="news_link">Learn More</a>
+                  </div>
 
+                </div>
+                <div
+                  class="mx-3 mt-6 flex news_card flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+                  <a href="#!">
+                    <img
+                      class="rounded-t-lg news_cardimg"
+                      src="./images/news-3.png"
+                      alt="Skyscrapers" />
+                  </a>
+                  <div class="p-6 news_Textbox">
+                    <span class="news_cardspan">Feb 05, 2027</span>
+                    <h5 class="mb-2 news_headdding text-xl font-medium leading-tight"> Collecting 8 points for discount</h5>
+                    <p class="mb-4 news_info text-base">
+                      There are many variations of passages of Lorem Ipsum available.
+                    </p>
+                    <a href="#" class="news_link">Learn More</a>
+                  </div>
+                  
+                </div>
+              </div>
+         </div>
+       </div>
+       <!-- =====================here news  section design end ============== -->
     </main>
+    <footer>
+      <div id="footer">
+        <footer class="px-4 divide-y  ">
+          <div class="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
+            <div class="lg:w-1/3">
+              <a rel="noopener noreferrer" href="#" class="flex justify-center space-x-3 lg:justify-start">
+                
+                <span class="self-center text-2xl font-semibold"><img src="./images/Group.png" alt=""></span>
+              </a>
+            </div>
+            <div class="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
+              <div class="space-y-3">
+                <h3 class="tracki uppercase ">Product</h3>
+                <ul class="space-y-1">
+                  <li>
+                    <a rel="noopener noreferrer" href="#">Features</a>
+                  </li>
+                  <li>
+                    <a rel="noopener noreferrer" href="#">Integrations</a>
+                  </li>
+                  <li>
+                    <a rel="noopener noreferrer" href="#">Pricing</a>
+                  </li>
+                  <li>
+                    <a rel="noopener noreferrer" href="#">FAQ</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="space-y-3">
+                <h3 class="tracki uppercase ">Company</h3>
+                <ul class="space-y-1">
+                  <li>
+                    <a rel="noopener noreferrer" href="#">Privacy</a>
+                  </li>
+                  <li>
+                    <a rel="noopener noreferrer" href="#">Terms of Service</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="space-y-3">
+                <h3 class="uppercase ">Developers</h3>
+                <ul class="space-y-1">
+                  <li>
+                    <a rel="noopener noreferrer" href="#">Public API</a>
+                  </li>
+                  <li>
+                    <a rel="noopener noreferrer" href="#">Documentation</a>
+                  </li>
+                  <li>
+                    <a rel="noopener noreferrer" href="#">Guides</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="space-y-3">
+                <div class="uppercase ">Social media</div>
+                <div class="flex justify-start space-x-3">
+                  <a rel="noopener noreferrer" href="#" title="Facebook" class="flex items-center p-1">
+
+                  </a>
+                  <a rel="noopener noreferrer" href="#" title="Twitter" class="flex items-center p-1">
+                   
+                  </a>
+                  <a rel="noopener noreferrer" href="#" title="Instagram" class="flex items-center p-1">
+                   
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="py-6 text-sm text-center ">© 1968 Company Co. All rights reserved.</div>
+        </footer>
+      </div>
+
+    </footer>
 </body>
 </html>
